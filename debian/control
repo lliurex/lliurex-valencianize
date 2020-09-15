@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 
 Package: lliurex-valencianize
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python3, debianutils
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3, debianutils (>=4.8.4)
 Description:  Changes folder names to valencian
  This package contains a script that changes folder names to valencian.
 
