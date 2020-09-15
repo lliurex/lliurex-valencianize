@@ -1,0 +1,24 @@
+#!/bin/bash
+
+MAIN_PATH="/usr/share/lliurex-valencianize"
+
+mkdir "$HOME/Escriptori"
+mkdir "$HOME/Baixades"
+mkdir "$HOME/Plantilles"
+mkdir "$HOME/Públic"
+mkdir "$HOME/Documents"
+mkdir "$HOME/Música"
+
+echo "Directories created..."
+
+cp "$MAIN_PATH/templates/user-dirs.dirs" "$HOME/.config/user-dirs.dirs"
+cp "$MAIN_PATH/templates/user-dirs.locale" "$HOME/.config/user-dirs.locale"
+
+echo -e  "Configuration files copied...\n"
+
+echo "Executing several fixes..."
+run-parts "$MAIN_PATH/extra-scripts"
+
+read -n 1 -s -r -p "Done. Press any key to finish."
+
+echo -e "\n"
