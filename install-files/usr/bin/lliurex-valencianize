@@ -4,7 +4,7 @@ MAIN_PATH="/usr/share/lliurex-valencianize"
 
 ESCRIPTORI="$HOME/Escriptori"
 BAIXADES="$HOME/Baixades"
-PLANTILLES"$HOME/Plantilles"
+PLANTILLES="$HOME/Plantilles"
 PUBLIC="$HOME/Públic"
 DOCUMENTS="$HOME/Documents"
 MUSICA="$HOME/Música"
