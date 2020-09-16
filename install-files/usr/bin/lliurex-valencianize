@@ -2,12 +2,19 @@
 
 MAIN_PATH="/usr/share/lliurex-valencianize"
 
-mkdir "$HOME/Escriptori"
-mkdir "$HOME/Baixades"
-mkdir "$HOME/Plantilles"
-mkdir "$HOME/Públic"
-mkdir "$HOME/Documents"
-mkdir "$HOME/Música"
+ESCRIPTORI="$HOME/Escriptori"
+BAIXADES="$HOME/Baixades"
+PLANTILLES"$HOME/Plantilles"
+PUBLIC="$HOME/Públic"
+DOCUMENTS="$HOME/Documents"
+MUSICA="$HOME/Música"
+
+mkdir -p $ESCRIPTORI
+mkdir -p $BAIXADES
+mkdir -p $PLANTILLES
+mkdir -p $PUBLIC
+mkdir -p $DOCUMENTS
+mkdir -p $MUSICA
 
 echo "Directories created..."
 
